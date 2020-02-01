@@ -7,6 +7,10 @@ app.get('/', (request, response) => {
 app.post('/', (request, response) => {
     response.send('welcome to post')
 })
+
+app.put('/', (request, response) => {
+    response.send('welcome to post')
+})
 app.listen(9898, '0.0.0.0', () => {
     console.log('server started on port 9898')
 })
